@@ -1,0 +1,153 @@
+body {
+  font-family: "Hanken Grotesk", sans-serif;
+  height: 100vh;
+}
+
+main {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  max-width: 740px;
+  height: 515px;
+  border-radius: 30px;
+  box-shadow: outset;
+  -webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.5);
+}
+
+.inside-margin {
+  margin: 0 60px;
+}
+
+p.inside-margin {
+  color: hsl(241, 100%, 89%);
+}
+
+.blue-container {
+  text-align: center;
+  background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+  border-radius: 30px;
+  max-width: 370px;
+  display: flex;
+  flex-direction: column;
+}
+
+.white-container {
+  background-color: white;
+  border-radius: 30px;
+  margin: 30px 30px;
+  max-width: 370px;
+  width: 450px;
+  display: flex;
+  flex-direction: column;
+}
+
+.white-container h2 {
+  margin-bottom: 30px;
+}
+
+.short-summaries-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.sumamaries {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+h2.results {
+  margin: 30px 0;
+  color: hsl(241, 100%, 89%);
+}
+.circle {
+  background-image: linear-gradient(
+    hsla(256, 72%, 46%, 1),
+    hsla(241, 72%, 46%, 0)
+  );
+  border-radius: 120px;
+  margin: 0 100px;
+  padding: 35px;
+}
+
+.circle h2 {
+  font-size: 60px;
+  color: white;
+}
+
+.circle h3 {
+  color: hsl(241, 100%, 89%);
+}
+
+h1 {
+  color: white;
+  padding: 40px 0 20px 0;
+}
+
+p {
+  font-size: 18px;
+}
+
+.sumamaries {
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.sumamaries img {
+  margin-right: 10px;
+}
+
+.conteudo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.reaction {
+  background-color: hsla(0, 100%, 67%, 10%);
+  color: hsl(0, 100%, 67%);
+}
+
+.memory {
+  background-color: hsla(39, 100%, 56%, 10%);
+  color: hsl(39, 100%, 56%);
+}
+
+.verbal {
+  background-color: hsla(166, 100%, 37%, 10%);
+  color: hsl(166, 100%, 37%);
+}
+
+.visual {
+  background-color: hsla(234, 85%, 45%, 10%);
+  color: hsl(234, 85%, 45%);
+}
+.text-color {
+  color: hsl(241, 100%, 89%);
+}
+
+.text-color b {
+  color: hsl(224, 30%, 27%);
+}
+
+button {
+  padding: 15px;
+  margin-top: 20px;
+  border: 1px solid hsl(224, 30%, 27%);
+  border-radius: 30px;
+  background-color: hsl(224, 30%, 27%);
+  color: white;
+  font-size: 18px;
+  transition: 0.2s ease-in-out;
+}
+
+button:hover {
+  transition: 0.2s ease-in-out;
+  box-shadow: outset;
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+}

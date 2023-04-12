@@ -1,0 +1,38 @@
+@media(max-width:770px){
+    .container{
+        display: flex;
+        height: 100vh;
+        flex-direction: column;
+        align-items: center;
+        box-shadow: none;
+    }
+    .score{
+        margin-bottom:30px;
+    }
+    button{
+        margin-bottom: 20px;
+    }
+}
+
+@media(max-width:375px){
+    .blue-container{
+        border-radius: 0 0 30px 30px;
+        width: 100%;
+    }
+    .container{
+        width: 100%;
+    }
+    button{
+        padding: 20px 10px;
+    }
+    .score{
+        margin: 0 15px ;
+        margin-bottom: 50px;
+    }
+    .white-container{
+        max-width: 300px;
+    }
+    .white-container h2{
+        font-size: 20px
+    }
+}
